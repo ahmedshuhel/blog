@@ -15,13 +15,22 @@ categories:
 
 Forwarding port 80 via SSH requires `sudo` privileges.
 
-```shell
+```bash
 sudo ssh username@163.xx.xxx.xxx -L 80:localhost:80
 ```
 
 But, if your server is setup to accept identity file only, things may not work as expected with the above command. This is because you may not have the identity file setup for the `root` user. Fortunately, `ssh` offers `-i` option to specify the file explicitly.
 
 
-```shell
+```bash
 sudo ssh -i ~/.ssh/id_rsa username@163.xx.xxx.xxx -L 80:localhost:80
+```
+
+```javascript
+var customer = getCustomer(2);
+
+function getCustomer(id) {
+  return db.customers.get(id);
+}
+
 ```
