@@ -13,7 +13,7 @@ tags:
 
 I am in the process of overhauling my blog site hosted on Github. I have been using [Hexo](https://hexo.io/) for a while for the current one as my static site generator. It served me well.
 
-I will admit, I am not a regular blogger. Over the last year, I managed to publish only three "miro" posts. Recently, I am thinking of becoming a bit more regular in documenting things that I am doing and interests me. To give myself a little incentive, I decided to migrate to [GatsbyJS](https://www.gatsbyjs.org/) and document the process along the way.
+I will admit, I am not a regular blogger. Over the last year, I managed to publish only three "micro" posts. Recently, I am thinking of becoming a bit more regular in documenting things that I am doing and interests me. To give myself a little incentive, I decided to migrate to [GatsbyJS](https://www.gatsbyjs.org/) and document the process along the way.
 
 This is the first post in a new series: Setting up your blog with GatsbyJS.
 
