@@ -1,6 +1,6 @@
 module.exports = {
-  blogPostDir: "_posts", // The name of directory that contains your posts.
-  blogAuthorDir: "_authors", // The name of directory that contains your 'authors' folder.
+  blogPostDir: "posts", // The name of directory that contains your posts.
+  blogAuthorDir: "authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "ahmedshuhel", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Random Thoughts", // Site title.
   siteTitleAlt: "Random Thoughts of Shuhel Ahmed", // Alternative site title for SEO.
