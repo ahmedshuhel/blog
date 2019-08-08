@@ -1,5 +1,7 @@
 ---
 title: Telnet a Network POS Printer
+cover: "https://unsplash.it/1280/900/?random?Telnet"
+author: "ahmedshuhel"
 date: 2018-02-24 14:25:27
 comments: true
 tags:

@@ -1,5 +1,7 @@
 ---
 title: Forwarding port 80 via SSH
+cover: "https://unsplash.it/1280/900/?random?SSH"
+author: "ahmedshuhel"
 date: 2018-03-07 13:27:22
 tags:
   - SSH

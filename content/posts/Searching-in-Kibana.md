@@ -1,5 +1,7 @@
 ---
 title: Searching in Kibana
+cover: "https://unsplash.it/1280/900/?random?Kibana"
+author: "ahmedshuhel"
 tags:
   - Kibana
   - Elastic Search
