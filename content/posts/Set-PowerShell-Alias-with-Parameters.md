@@ -2,7 +2,7 @@
 title: Create PowerShell Alias with Parameters 
 cover: "https://unsplash.it/1280/900/?random?powershell"
 author: "ahmedshuhel"
-date: 2018-03-07 13:27:22
+date: 2019-08-12 13:54:00
 tags:
   - Shell
   - PowerShell
@@ -49,7 +49,7 @@ Set-Alias ls Show-AllFiles
 Set-Alias ll Show-AllFiles
 ```
 
-`Source` your newly edited file to get new aliases :
+Aliases to take effect, `source` your newly edited file:
 
 ```powershell
 . $profile
