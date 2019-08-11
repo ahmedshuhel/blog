@@ -25,12 +25,3 @@ But, if your server is setup to accept identity file only, things may not work a
 ```bash
 sudo ssh -i ~/.ssh/id_rsa username@163.xx.xxx.xxx -L 80:localhost:80
 ```
-
-```javascript
-var customer = getCustomer(2);
-
-function getCustomer(id) {
-  return db.customers.get(id);
-}
-
-```
