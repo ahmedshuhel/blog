@@ -16,3 +16,5 @@
 - Automating .oh-my-zsh
 - Automating Tmux with plugin manager
 - .dircolors, `.gitignore_global`, .gitconfig, .tmux
+## Setup Scala Development Environment with Neovim, LSP and COC
+
