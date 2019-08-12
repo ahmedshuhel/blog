@@ -83,3 +83,31 @@ WARN  no build target: /Users/ahmedshuhel/Workspace/scala-demo/hello-world-templ
 # ~/.gitignore
 .metals/
 .bloop/
+
+
+```
+➜  hello-world-template sbt
+[info] Loading settings for project global-plugins from metals.sbt ...
+[info] Loading global plugins from /Users/ahmedshuhel/.sbt/1.0/plugins
+[info] Loading project definition from /Users/ahmedshuhel/Workspace/scala-demo/hello-world-template/project
+[info] Loading settings for project hello-world-template from build.sbt ...
+[info] Set current project to hello-world (in build file:/Users/ahmedshuhel/Workspace/scala-demo/hello-world-template/)
+[info] sbt server started at local:///Users/ahmedshuhel/.sbt/1.0/server/3ad58dcd832b18bd24e8/sock
+```
+> Run sbt This will open up the sbt console.
+
+```bash
+sbt:hello-world> ~run
+[info] Updating ...
+[info] Done updating.
+[info] Compiling 1 Scala source to /Users/ahmedshuhel/Workspace/scala-demo/hello-world-template/target/scala-2.12/classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.8. Compiling...
+[info]   Compilation completed in 16.998s.
+[info] Done compiling.
+[info] Packaging /Users/ahmedshuhel/Workspace/scala-demo/hello-world-template/target/scala-2.12/hello-world_2.12-1.0.jar ...
+[info] Done packaging.
+[info] Running Main
+Hello, Universe!
+[success] Total time: 35 s, completed Aug 12, 2019 6:34:00 PM
+1. Waiting for source changes in project hello-world-template... (press enter to interrupt)
+```
