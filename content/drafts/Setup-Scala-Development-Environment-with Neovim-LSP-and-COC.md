@@ -111,3 +111,8 @@ Hello, Universe!
 [success] Total time: 35 s, completed Aug 12, 2019 6:34:00 PM
 1. Waiting for source changes in project hello-world-template... (press enter to interrupt)
 ```
+
+sbt is watching for changes. Change something in source and see the output in the console.
+
+
+Next Up: Add testing with FunLite.
