@@ -39,3 +39,47 @@ The first time you open Metals in a new workspace it prompts you to import the b
 
 [scala-import-build.png]
 
+
+```bash
+➜  hello-world-template tail -f .metals/metals.log
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/
+```
+> It took 15 minutes for me to complete.
+
+Once completed you should see
+
+```
+➜  hello-world-template tail -f .metals/metals.log
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/
+The server is listening for incoming connections at local:///var/folders/qr/81llrsn92v99479qnwmbgzq40000gp/T/bsp893694693305760194/-s101vq0dcwb2.socket...
+Accepted incoming BSP client connection at local:///var/folders/qr/81llrsn92v99479qnwmbgzq40000gp/T/bsp893694693305760194/-s101vq0dcwb2.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ahmedshuhel/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 1m40s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.15s
+INFO  time: indexed workspace in 3.33s
+WARN  no build target: /Users/ahmedshuhel/Workspace/scala-demo/hello-world-template/build.sbt
+```
+
+# ~/.gitignore
+.metals/
+.bloop/
