@@ -4,25 +4,25 @@ cover: "https://unsplash.it/1280/900/?random?powershell"
 author: "ahmedshuhel"
 date: 2019-08-12 13:54:00
 tags:
-  - Shell
-  - PowerShell
-  - Alias
-  - Parameter
-  - Option
+ - Shell
+ - PowerShell
+ - Alias
+ - Parameter
+ - Option
 categories:
-  - Tutorial
-  - Self Help
-  - Micro Post
+ - Tutorial
+ - Self Help
+ - Micro Post
 ---
 
 
-I wanted to create an `ls` alias that takes a few parameter by default. But, that is not possible in PowerShell. To get around that however, you can create a function that runs the command with the parameter and then create an `alias` for that function.
+I wanted to create an `ls` alias that takes a few parameters by default. But, that is not possible in PowerShell. To get around that, however, you can create a function that runs the command with the parameter and then create an `alias` for that function.
 
 Declare a `function` as follows:
 
 ```powershell
 Function Show-AllFiles {
-  Get-ChilldItem -Force
+ Get-ChilldItem -Force
 }
 ```
 
@@ -32,7 +32,7 @@ Create the alias
 Set-Alias ls Show-AllFiles
 ```
 
-If you want reusability across your PowerShell sessions, add this in your `$PROFILE` file. To open `Microsof.PowerShell_profile.ps1` in Notepad invoke the following command in your shell.
+If you want reusability across your PowerShell sessions, add this in your `$PROFILE` file. To open `Microsoft.PowerShell_profile.ps1` in Notepad invoke the following command in your shell.
 
 ```powershell
 notepad $PROFILE
